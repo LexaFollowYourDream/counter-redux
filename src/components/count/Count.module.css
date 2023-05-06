@@ -1,0 +1,49 @@
+.containerCount {
+    width: 320px;
+    height: 220px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    background-color: #000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CounterDisplay {
+    width: 67%;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #8de1c6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blockButtons {
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.buttonInc {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.buttonIncRed {
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.buttonReset{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+}
